@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lang {
+  width: 100px;
+  align-self: flex-end;
+}
+
+textarea {
+  height: 300px;
+}
+
+.output {
+  background-color: black;
+  color: white;
+  height: 200px;
+}
+
+.compile {
+  width: 100px;
+}
+
+.output_result {
+  color: white;
+}
